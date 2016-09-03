@@ -1,1 +1,2 @@
 requests==2.11.1
+https://github.com/martinblech/xmltodict/archive/v0.10.2.zip
