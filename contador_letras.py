@@ -3,9 +3,6 @@ histograma = {}
 letras = 'abcajhgadsligads'
 
 for char in letras:
-    if char in histograma:
-        histograma[char] += 1
-    else:
-        histograma[char] = 1
+    histograma[char] = histograma.get(char, 0) + 1
 
 print(histograma)
