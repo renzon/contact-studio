@@ -20,15 +20,16 @@ class Baralho:
     def __getitem__(self, idx):
         return self.cartas[idx]
 
+    def __len__(self):
+        return len(self.cartas)
+
 
 baralho = Baralho()
 
-i = 0
 print(baralho[0])
 print(baralho[:5])
-for carta in baralho:
+for i, carta in enumerate(baralho, start=1):
     print(i, carta)
-    i += 1
 
 
 
