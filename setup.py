@@ -132,6 +132,6 @@ setup(
         "Framework :: Paste",
     ],
     zip_safe=False,
-    install_requires=['requests==2.11.1',
+    install_requires=['requests==2.20.0',
                       'xmltodict>=0.10.2']
 )
